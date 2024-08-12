@@ -74,7 +74,7 @@ function App() {
         <Row>
           <Col>
             <ul>
-              <h2>Today's Activities:</h2>
+              <h2>Today's Activities:{activities.length}</h2>
               <StoredActivities list={activities} />
             </ul>
           </Col>
