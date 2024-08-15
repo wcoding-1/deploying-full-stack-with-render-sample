@@ -74,6 +74,7 @@ function App() {
         <Row>
           <Col>
             <ul>
+              <p>kaba</p>
               <h2>Today's Activities:{activities.length} slice</h2>
               <StoredActivities list={activities} />
             </ul>
